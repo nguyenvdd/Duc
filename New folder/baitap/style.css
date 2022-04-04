@@ -1,0 +1,27 @@
+body {
+    line-height: 1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#wrapper {
+    border: 1.5px solid rgb(238, 62, 200);
+    border-radius: 30px;
+    background-color: plum;
+    padding: 10px;
+}
+input, label, button {
+    margin: 3px 10px ;
+}
+button, #length, #password {
+    background-color: 	#FFB6C1 ;
+    border: 1.2px solid rgb(238, 62, 200) ;
+}
+img {
+    width: 70px;
+    height: auto;
+    display: flex ;
+    margin-left: 4%;
+    opacity: 0.8;
+}
