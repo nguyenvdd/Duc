@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper" class="header">
+
+    <h2>Todo app</h2>
+    <button type="submit" class="create" id="new_button">New</button>
+        <div class="block"> 
+            <div class="item">
+                <label>Name</label>
+                <input type="text" class="name" placeholder="Nhập công việc"></input>
+                <label>Deadline</label>
+                <input type="date" class="time"></input>
+                <button id="addItem">Add</button>
+            </div>
+        </div>
+    <table class="list_item">
+        <h2>List</h2>
+        <tr>
+            <td>Name</td>
+            <td>Deadline</td>
+            <td>Function</td>
+        </tr>
+    </table>
+    <script src="main.js"></script>
+</body>
+</html>

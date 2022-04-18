@@ -1,0 +1,31 @@
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+
+body {
+    height : 180vh;
+    background-color:lightpink;
+}
+.header {
+    border: 1px solid red;
+}
+
+.block {
+    display : none;
+}
+
+td {
+    width: 200px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 2px;
+    background-color: lightsalmon;
+}
+
+table, td {
+    border: 1px solid black;
+}
