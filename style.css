@@ -1,0 +1,47 @@
+*{
+    padding: 0%
+    margin:0%
+    box-sizing: boder-box;
+}
+/* css cho index */
+
+table{
+    border: 1px solid black;
+    width: 600px;
+    text-align: left;
+}
+th{
+    border: 1px solid black;
+    padding-left: 10px;
+
+}
+td{
+    border: 1px solid black;
+    padding: left 10px;
+}
+a{
+    color: rgb(83, 85, 148);
+    padding-left: 10px;
+    text-decoration-color: none;
+
+    
+}
+a : :hover{
+    background-color: aqua;
+    color :blank
+    
+}
+/* css cho bai-lam */
+
+body{ 
+    background-color :aqua
+    color :black
+    font-family: "poppins", sans-serif;
+    dislay
+
+
+
+    
+
+}    
+  
