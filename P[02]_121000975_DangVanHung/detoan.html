@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myform">
+        Q1.1 + 1 = ?<br>
+        <input type="radio" name="question_01" value="a"> 2<br>
+        <input type="radio" name="question_01" value="b"> 3<br>
+        <input type="radio" name="question_01" value="c"> 4<br>
+        <input type="radio" name="question_01" value="d"> 5<br><br>
+        
+        Q2. 2 + 2 = ?<br>
+        <input type="radio" name="question_02" value="a"> 6<br>
+        <input type="radio" name="question_02" value="b"> 4 <br>
+        <input type="radio" name="question_02" value="c"> 5 <br>
+        <input type="radio" name="question_02" value="d"> 3 <br> 
+        
+        Q3. 6 : 3 = ?<br>
+        <input type="radio" name="question_03" value="a"> 5<br>
+        <input type="radio" name="question_03" value="b"> 2<br>
+        <input type="radio" name="question_03" value="c"> 4<br>
+        <input type="radio" name="question_03" value="d"> 7<br><br>
+        
+        <input type="button" value="nộp bài" onclick="check()">
+        </form>
+        <script type="text/javascript">
+            function check()
+            {
+                var question_01 = document.myform.question_01.value;
+                var question_02 = document.myform.question_02.value;
+                var question_03 = document.myform.question_03.value;
+                var count = 0;
+                if(question_01 == "a")
+                {
+                    count++;
+                }
+                if(question_02 == "b")
+                {
+                    count++;
+                }
+                if(question_03 == "b")
+                {
+                    count++;
+                }
+                alert("bạn được " + count + " câu trả lời đúng");
+            }
+            
+        </script>
+</body>
+</html>
