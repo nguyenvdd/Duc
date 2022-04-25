@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        Tên đề thi: <input type="text">
+    <label for="text"></label>
+    <button onclick="moreFields()">Thêm câu hỏi</button>
+    </div>
+    <div id="myForm">
+        <fieldset style="width: 50%">
+            <form >
+                Câu hỏi <input type="text"> <br>
+                Phương án <br>
+                <div id="ask" >
+                    <fieldset style="width: 50%">
+                        <label for="">A</label>
+                <input type="text" >
+                <input type="radio" name="ask"> <br>
+                <label for="">B</label>
+                <input type="text" >
+                <input type="radio" name="ask"><br>
+                <label for="">C</label>
+                <input type="text" >
+                <input type="radio" name="ask"><br>
+                <label for="">D</label>
+                <input type="text" >
+                <input type="radio" name="ask"><br>
+                    </fieldset>
+                </div>
+            </form>
+            
+            
+        </fieldset>
+    </div>
+    <div id="newForm">
+
+    </div>
+    <button >Lưu đề thi</button>
+    <script src="main.js"></script>
+</body>
+</html>
